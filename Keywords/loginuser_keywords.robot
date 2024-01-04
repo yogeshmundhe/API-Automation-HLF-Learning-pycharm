@@ -13,7 +13,7 @@ ${Cust_hash_id}     ${EMPTY}
 LoginUser_Set_Global_Variable
         create session    loginsession      ${BaseURL}
         ${body}     create dictionary       email=${UserEmail}      password=${UserPassword}
-        ${Response}     post on session    loginsession     /api/v1/user/login      data=${body}
+        ${Response}     post on session    loginsession     /api/v1/user/login      json=${body}
 #        log to console    ${Response.status_code}
 #        log to console      ${Response.json()}
         ${json_Obj}=       to json      ${Response.content}

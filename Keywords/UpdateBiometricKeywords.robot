@@ -1,6 +1,6 @@
 *** Settings ***
 Library    RequestsLibrary
-Library    Collection
+Library    Collections
 Library    JSONLibrary
 Resource    ../Keywords/loginuser_keywords.robot
 
