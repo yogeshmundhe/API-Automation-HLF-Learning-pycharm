@@ -8,6 +8,7 @@ Resource    ../Keywords/GetCustemer.robot
 Resource    ../Keywords/UpdateCustemerDetails_keywords.robot
 Resource    ../Keywords/GetUserAddress.robot
 Resource    ../Keywords/UpdateBiometricKeywords.robot
+Resource    ../Keywords/deviceLoginKeywords.robot
 
 
 
@@ -27,5 +28,5 @@ TC_1. LogIn user into HLF app
 TC_5. Update User Device Biometric
         Generate User Device Token Id
 
-#TC_6. Login to app using device biometrics
-#        Login with Biometrics Quick option
+TC_6. Login to app using device biometrics
+        Login with Biometrics Quick option
